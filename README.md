@@ -1,21 +1,23 @@
-# Python Programs - Week 2
+# Python Programs - Week 3
 
-This repository contains simple Python programs for Week 2 tasks.
+This repository contains simple Python programs for Week 3 tasks.
 
 ## Programs
 
-Factorial (`factorial.py`)
-Finds the factorial of a given number.
+Fibonacci Series (`fibonacci.py`)
+Prints the Fibonacci series for n terms.
 
 **Sample Run**
 ```
-Enter a number: 5
-Factorial of 5 = 120
+Enter the number of terms: 7
+Fibonacci Series:
+0 1 1 2 3 5 8
 ```
+
 ## How to Run
 ```
-python factorial.py
+python fibonacci.py
 ```
 
 ## Screenshots
-- `factorial_output.png`
+s- `fibonacci_output.png`
