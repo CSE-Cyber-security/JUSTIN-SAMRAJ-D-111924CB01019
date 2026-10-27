@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header class="header">
+      <h1>&#128203; To-Do List</h1>
+      <p>Plan &bull; Do &bull; Achieve</p>
+    </header>
+
+    <form id="task-form" class="add-row">
+      <input type="text" id="task-input" placeholder="Enter a new task..." autocomplete="off" required>
+      <button type="submit" class="btn-add">+ Add Task</button>
+    </form>
+
+    <div class="toolbar">
+      <div class="filters">
+        <button class="filter active" data-filter="all">All (0)</button>
+        <button class="filter" data-filter="pending">Pending (0)</button>
+        <button class="filter" data-filter="completed">Completed (0)</button>
+      </div>
+      <div class="summary">
+        <span id="pending-count" class="pending-text">0 pending</span>
+        <span id="completed-count" class="completed-text">0 completed</span>
+      </div>
+    </div>
+
+    <ul id="task-list" class="task-list"></ul>
+
+    <footer class="footer">Small steps make big goals! &#9786;</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
